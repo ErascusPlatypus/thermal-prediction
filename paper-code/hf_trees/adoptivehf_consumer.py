@@ -20,7 +20,6 @@ model = compose.Pipeline(
         delta=0.01,            # Confidence level
         max_depth=15,          # Allow slightly deeper trees
         leaf_prediction='mean', # Simple but effective
-        
         seed=42
     )
 )

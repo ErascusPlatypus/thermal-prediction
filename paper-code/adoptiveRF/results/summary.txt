@@ -1,12 +1,12 @@
 Adaptive Random Forest Online Learning Results
 ========================================
 
-Samples processed: 6146
-Processing time: 619.03 seconds
+Samples processed: 5462
+Processing time: 550.99 seconds
 
 Performance metrics:
-RMSE: 1.1700°C
-MAE: 0.3575°C
-R²: 0.9092
+RMSE: 1.1531°C
+MAE: 0.3521°C
+R²: 0.9129
 
 No concept drift detected

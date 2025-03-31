@@ -1,0 +1,10 @@
+Online Learning Performance Summary
+========================================
+
+Total samples processed: 625
+Runtime: 303.37 seconds
+
+Final Performance Metrics:
+RMSE: 9.8986°C
+MAE: 6.0094°C
+R²: -8.6407

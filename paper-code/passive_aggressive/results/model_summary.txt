@@ -1,0 +1,32 @@
+Passive Aggressive Regressor for CPU Temperature Prediction
+============================================================
+
+Dataset Information:
+- Total samples: 57685
+- Features: 18
+- Target: CPU temperature - Centigrade Degrees (°C)
+
+Best Hyperparameters:
+- feature_selection__k: 20
+- regressor__C: 0.001
+- regressor__epsilon: 0.5
+- regressor__max_iter: 1000
+- regressor__tol: 0.0001
+
+Model Performance:
+- MSE: 0.3194
+- RMSE: 0.5651
+- R²: 0.9739
+- MAE: 0.3930
+
+Top 10 Features by Importance:
+1. CPU consumption - Percentage (%): 0.8117
+2. RAM memory power consumption - Percentage (%): 0.6610
+3. Voltage (V): 0.1035
+4. Power (PA) - Watts (W): 0.0557
+5. Frequency - Hertz (Hz): 0.0523
+6. RAM memory consumption - Percentage (%): 0.0417
+7. weekday: 0.0378
+8. cpu_gpu_interaction: 0.0082
+9. GPU temperature - Centigrade Degrees (°C): 0.0078
+10. CPU power consumption - Percentage (%): 0.0071
